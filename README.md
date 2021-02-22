@@ -111,6 +111,18 @@ Modificado:
 
 #### 14. Faça uma tabela comparativa com os custos para registrar e hospedar um site com domínio “.com” em empresas estrangeiras. Faça a cotação em pelo menos 3 empresas e indique o nome da empresa, valor, principais recursos oferecidos (por exemplo: armazenamento ilimitado, e-mail gratuito, etc.). Compare com os preços nacionais do exercício anterior e argumente o motivo pelo qual existe diferenças de preços.
 
+First Header | A2 Hosting    | ACCU    | DreamHost     | Liquid Web     | Ionos     |
+------------ | ------------- | ------------- | ------------- | ------------- | -------------
+Shared Hosting | - alksjskjaks | [ x ] | [ x ] | [ x ] | [ x ] |
+VPS Hosting | Content in the second column
+Dedicated Hosting | Content in the second column
+WordPress Hosting | Content in the second column
+Cloud Hosting | Content in the second column
+Linux Servers | Content in the second column
+Windows Servers | Content in the second column
+24/7 Customer Support | Content in the second column
+Price | Content in the second column
+
 #### 15. Veja a seguir a captura de dois pacotes ARP feita com o software Wireshark. Explique o que estava acontecendo no momento em que os pacotes foram capturados. Indique qual era o endereço MAC relativo ao endereço IP 192.168.0.114.
 
 ![image](./images/img_q_final.png)
