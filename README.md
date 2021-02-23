@@ -113,15 +113,15 @@ Modificado:
 
 First Header | A2 Hosting    | ACCU    | DreamHost     | Liquid Web     | Ionos     |
 ------------ | ------------- | ------------- | ------------- | ------------- | -------------
-Shared Hosting | - alksjskjaks | [ x ] | [ x ] | [ x ] | [ x ] |
-VPS Hosting | Content in the second column
-Dedicated Hosting | Content in the second column
-WordPress Hosting | Content in the second column
-Cloud Hosting | Content in the second column
-Linux Servers | Content in the second column
-Windows Servers | Content in the second column
-24/7 Customer Support | Content in the second column
-Price | Content in the second column
+Shared Hosting | Sim | Sim | Sim | Sim | Não |
+VPS Hosting | Sim | Sim | Sim | Sim | Não |
+Dedicated Hosting | Sim | Sim | Sim | Sim | Sim |
+WordPress Hosting | Sim | Sim | Sim | Sim | Sim |
+Cloud Hosting | Sim | Sim | Sim | Sim | Sim |
+Linux Servers | Sim | Sim | Sim | Sim | Sim |
+Windows Servers | Sim | Sim | Não | Sim | Sim |
+24/7 Customer Support | Sim | Sim | Sim | Sim | Sim |
+Price | US$9.31/m | US$3.36/m | US$3.59/m | US$19/m | US$10/m |
 
 #### 15. Veja a seguir a captura de dois pacotes ARP feita com o software Wireshark. Explique o que estava acontecendo no momento em que os pacotes foram capturados. Indique qual era o endereço MAC relativo ao endereço IP 192.168.0.114.
 
