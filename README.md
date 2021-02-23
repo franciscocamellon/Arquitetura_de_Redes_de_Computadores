@@ -126,11 +126,3 @@ Price | Content in the second column
 #### 15. Veja a seguir a captura de dois pacotes ARP feita com o software Wireshark. Explique o que estava acontecendo no momento em que os pacotes foram capturados. Indique qual era o endereço MAC relativo ao endereço IP 192.168.0.114.
 
 ![image](./images/img_q_final.png)
-
-Fonte:
-
-[https://discabos.com.br/blog/artigos/como-escolher-o-cabo-de-rede/](https://discabos.com.br/blog/artigos/como-escolher-o-cabo-de-rede/)
-
-[https://www.hardware.com.br/guias/redes-wireless/alcance-interferencia.html](https://www.hardware.com.br/guias/redes-wireless/alcance-interferencia.html)
-
-[https://www.oficinadanet.com.br/post/8619-qual-a-diferenca-entre-redes-wifi-a-b-g-n](https://www.oficinadanet.com.br/post/8619-qual-a-diferenca-entre-redes-wifi-a-b-g-n)
