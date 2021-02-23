@@ -108,7 +108,7 @@ Locaweb | Renovação entre as mais caras | Paga à parte | R$ 36,90
 
 #### 14. Faça uma tabela comparativa com os custos para registrar e hospedar um site com domínio “.com” em empresas estrangeiras. Faça a cotação em pelo menos 3 empresas e indique o nome da empresa, valor, principais recursos oferecidos (por exemplo: armazenamento ilimitado, e-mail gratuito, etc.). Compare com os preços nacionais do exercício anterior e argumente o motivo pelo qual existe diferenças de preços.
 
-Empresa  Opções | A2 Hosting    | ACCU    | DreamHost     | Liquid Web     | Ionos     |
+Empresa/Opções | A2 Hosting    | ACCU    | DreamHost     | Liquid Web     | Ionos     |
 ------------ | ------------- | ------------- | ------------- | ------------- | -------------
 Shared Hosting | Sim | Sim | Sim | Sim | Não |
 VPS Hosting | Sim | Sim | Sim | Sim | Não |
