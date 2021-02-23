@@ -79,20 +79,15 @@ Modificado:
 
 #### 13. Faça uma tabela comparativa com os custos para registrar e hospedar um site com domínio “.com.br”. Faça a cotação em pelo menos 3 empresas e indique o nome da empresa, valor, principais recursos oferecidos (por exemplo: armazenamento ilimitado, e-mail gratuito, etc.).
 
----
-
 > #### GoDaddy:
-
 > R$:19,99 no primeiro ano, necessária a compra de dois anos e o segundo por R$:64,99. Um dos principais recursos oferecidos pela GoDaddy é o investimento em segurança que a empresa tem. A GoDaddy se intitula o maior registrador do mundo, conhecida também por possuir um suporte premiado.
 
 > #### Registro.br:
-
 > Ao registrar um domínio .br você está, independente da empresa, fazendo pelo [Registro.br](http://registro.br), no caso de utilizar outra empresa, está apenas sendo utilizada a empresa como intermediária do processo, então ao fazer diretamente pelo Registro.br você não deixa suas informações com demais sites e acaba tendo esse ponto a mais na segurança.
 
-
 > #### HostGator:
-
 > A HostGator possui um suporte disponível 24h todos os dias, segundo eles um painel de controle interativo e fácil de usar, Proteção Whois (ID Protect) – que permite manter ocultos dados sensíveis como nome, endereço e telefone, para domínios internacionais (.com, .org e .net).
+
 > #### Locaweb:
 > O serviço de registro de domínios é oferecido por um preço único para todas as extensões disponibilizadas. No primeiro ano, qualquer domínio pode ser registrado por R$ 36,90, com renovação por R$ 82,90, valor acima da média de mercado. A empresa não oferece o recurso de privacidade de domínio.
 
@@ -104,7 +99,6 @@ Godaddy | Maior variedade de extensões | Paga à parte | R$ 19,99
 HostGator | Menor preço na compra de 2 anos | Paga à parte | R$ 39,99 
 Locaweb | Renovação entre as mais caras | Paga à parte | R$ 36,90 
 
----
 
 #### 14. Faça uma tabela comparativa com os custos para registrar e hospedar um site com domínio “.com” em empresas estrangeiras. Faça a cotação em pelo menos 3 empresas e indique o nome da empresa, valor, principais recursos oferecidos (por exemplo: armazenamento ilimitado, e-mail gratuito, etc.). Compare com os preços nacionais do exercício anterior e argumente o motivo pelo qual existe diferenças de preços.
 
