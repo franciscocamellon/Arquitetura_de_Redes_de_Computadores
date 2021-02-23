@@ -81,19 +81,19 @@ Modificado:
 
 ---
 
-### GoDaddy:
+> #### GoDaddy:
 
 > R$:19,99 no primeiro ano, necessária a compra de dois anos e o segundo por R$:64,99. Um dos principais recursos oferecidos pela GoDaddy é o investimento em segurança que a empresa tem. A GoDaddy se intitula o maior registrador do mundo, conhecida também por possuir um suporte premiado.
 
-### Registro.br:
+> #### Registro.br:
 
 > Ao registrar um domínio .br você está, independente da empresa, fazendo pelo [Registro.br](http://registro.br), no caso de utilizar outra empresa, está apenas sendo utilizada a empresa como intermediária do processo, então ao fazer diretamente pelo Registro.br você não deixa suas informações com demais sites e acaba tendo esse ponto a mais na segurança.
 
 
-### HostGator:
+> #### HostGator:
 
 > A HostGator possui um suporte disponível 24h todos os dias, segundo eles um painel de controle interativo e fácil de usar, Proteção Whois (ID Protect) – que permite manter ocultos dados sensíveis como nome, endereço e telefone, para domínios internacionais (.com, .org e .net).
-### Locaweb:
+> #### Locaweb:
 > O serviço de registro de domínios é oferecido por um preço único para todas as extensões disponibilizadas. No primeiro ano, qualquer domínio pode ser registrado por R$ 36,90, com renovação por R$ 82,90, valor acima da média de mercado. A empresa não oferece o recurso de privacidade de domínio.
 
 
