@@ -2,16 +2,18 @@
 <p align="center"><img src="./images/infnet_logo.jpg" /></p>
 
 ---
-## <p align="center"> INSTITUTO INFNET</p>
-## <p align="center"> ESCOLA SUPERIOR DA TECNOLOGIA DA INFORMAÇÃO</p>
-## <p align="center"> CURSO DE ENGENHARIA DE SOFTWARES</p>
 
-<p align="center">Francisco Alves Camello Neto</p>
-
-### <p align="center"> TP 1 - Arquitetura de Redes de Computadores</p>
-
-
-<p align="center">Profº Adriano Saad</p>
+<h2 align="center"> INSTITUTO INFNET <br>
+ESCOLA SUPERIOR DA TECNOLOGIA DA INFORMAÇÃO<br>
+CURSO DE ENGENHARIA DE SOFTWARES</h2>
+<h1><br></h1>
+<h4 align="center" padding-top="200">Francisco Alves Camello Neto</h4>
+<h1><br></h1>
+<h1><br></h1>
+<h3 align="center"> TP 1 - Arquitetura de Redes de Computadores</h3>
+<h1><br></h1>
+<h1><br></h1>
+<h4 align="center">Profº Adriano Saad</h4>
 
 ---
 <p align="center">Brasília<br> 13 de fevereiro de 2021</p>
