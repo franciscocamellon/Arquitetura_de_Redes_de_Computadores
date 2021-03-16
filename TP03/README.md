@@ -1,4 +1,4 @@
-<p align="center"><img src="./TP03/images/infnet_logo.jpg" /></p>
+<p align="center"><img src="./images/infnet_logo.jpg" /></p>
 
 ---
 
@@ -46,27 +46,27 @@ Quando alguém precisa requisitar algo que está em uma rede, é na camada de ap
 - Usuário: donald
 - Senha: a1b2c3d4
 
-![image](./TP03/images/Untitled.png)
+![image](./images/Untitled.png)
 
 #### 3. Faça uma captura utilizando o Wireshark de tráfego DNS (UDP porta 53). Você deve capturar a tela com o resultado dos testes e apontar com setas onde estão os pacotes relevantes. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura. Dica: Inicie a captura de pacotes com o wireshark, e só depois acesse algum site.
 
 Antes da captura:
 
-![image](./TP03/images/dns_1.png)
+![image](./images/dns_1.png)
 
 Iniciando a captura (Apenas o firefox, notion e kaspersky abertos):
 
-![image](./TP03/images/dns_2.png)
+![image](./images/dns_2.png)
 
 Final da captura (Ao acessar o site do LinkedIn):
 
-![image](./TP03/images/dns_3.png)
+![image](./images/dns_3.png)
 
 #### 4. Faça uma captura utilizando o Wireshark de tráfego DHCP (UDP porta 67 ou 68). Você deve capturar a tela com o resultado dos testes e apontar com setas onde estão os pacotes relevantes. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura. Dica: Inicie a captura de pacotes com o wireshark, e depois conecte e desconecte o cabo/placa de rede para ganhar um novo endereço IP.
 
 A captura foi feita filtrando apenas os protocolos DHCP, portanto não foi necessário sinalizar os pacotes relevantes.
 
-![image](./TP03/images/dhcp_1.png)
+![image](./images/dhcp_1.png)
 
 #### 5. Explique com suas próprias palavras os motivos pelos quais gerenciar uma rede é importante.
 
@@ -90,11 +90,11 @@ O PING pode ser usado para avaliar um sistema, ao fazer mudanças na rede, ou at
 
 captura 1:
 
-![image](./TP03/images/conection_1.png)
+![image](./images/conection_1.png)
 
 captura 2:
 
-![image](./TP03/images/conection_2.png)
+![image](./images/conection_2.png)
 
 #### 9. Com base no resultado do teste anterior, informe qual a velocidade do link de internet onde o teste foi feito e explique se o provedor está cumprindo com a velocidade mínima contratada.
 
@@ -120,7 +120,7 @@ Qualidade da rede, disponibilidade e segurança são critérios importantes no g
 
 O site [www.infnet.edu.br](http://www.infnet.edu.br) não devolve qualquer resposta, provavelmente está com acesso bloqueado. Portanto foi feito o comando usando o site do [google.com](http://google.com)
 
-![image](./TP03/images/ping1.png)
+![image](./images/ping1.png)
 
 - Ping statistics for 2800:3f0:4004:802::2004:
 - Packets: Sent = 1000, Received = 1000, Lost = 0 (0% loss),
@@ -133,13 +133,13 @@ Pode-se observar que a perda de pacotes foi 0 e o atraso médio do ping foi de 3
 
 Iniciando o teste, verificando as configurações da máquina virtual:
 
-![image](./TP03/images/t1_vm1.png)
+![image](./images/t1_vm1.png)
 
-![image](./TP03/images/teste1.png)
+![image](./images/teste1.png)
 
 #### 14. Seguindo a linha do exercício 13, refaça o _Teste 2_ você mesmo e apresente o resultado do teste. Você deve capturar a tela com o resultado dos testes. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
 
-![image](./TP03/images/t2_vm.png)
+![image](./images/t2_vm.png)
 
 #### 15. Seguindo a linha do exercício 13, refaça o _Teste 3_ você mesmo e apresente o resultado do teste. Você deve capturar a tela com o resultado dos testes. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
 
