@@ -155,6 +155,12 @@ O protocolo IP trata todos os pacotes de forma igual, não garante todos os serv
 
 #### 19. Veja novamente o item “Etapa 6 - Prática - Como esconder seu endereço real na internet”. Faça o teste de esconder o seu endereço IP(pode ser no computador ou no celular). Você deve capturar a tela com o resultado dos testes _antes e depois de mudar de endereço IP_. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
 
+Antes da utilização de uma VPN:
+![image](./images/ip1.png)
+
+Ao utilizar a VPN do Kaspersky:
+![image](./images/ip2.png)
+
 #### 20. Explique com suas palavras porque o Acordo de Nível de Serviço (SLA) é importante quando se contrata um link de internet, por exemplo.
 
 Está relacionado com a garantia de prestação de serviços e aos níveis de qualidade que devem ser atendidos. É uma garantia para o usuário, empresa e o profissional que presta o serviço de TI, caso haja descumprimento do acordo o contratante ou empresa estarão resguardados, na questão financeira, porém não se faz desnecessário a busca de empresas que prestem serviços de qualidade.
