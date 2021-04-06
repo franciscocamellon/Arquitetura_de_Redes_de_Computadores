@@ -13,7 +13,8 @@ CURSO DE ENGENHARIA DE SOFTWARES</h2>
 <p><br></p>
 <p><br></p>
 <p><br></p>
-<h3 align="center"> TP 3 - Arquitetura de Redes de Computadores</h3>
+<h3 align="center"> Assesment</h3>
+<h3 align="center"> Arquitetura de Redes de Computadores</h3>
 <p><br></p>
 <p><br></p>
 <p><br></p>
@@ -22,7 +23,7 @@ CURSO DE ENGENHARIA DE SOFTWARES</h2>
 <p><br></p>
 
 ---
-<p align="center">Brasília<br> 15 de março de 2021</p>
+<p align="center">Brasília<br> 05 de abril de 2021</p>
   
 <p><br></p>
 <p><br></p>
@@ -32,14 +33,14 @@ CURSO DE ENGENHARIA DE SOFTWARES</h2>
 
 
 
-#### 1. Descreva os principais usos das redes de computadores. Pesquise e descreva tendências para o futuro das redes de computadores e da Internet. Por fim, argumente por que as redes de computadores e a Internet tiveram tanto sucesso em um espaço de tempo tão pequeno.  
+#### 1. Qual tipo de utilização faz o maior uso de tráfego na internet na sua opinião? Justifique sua resposta.  
 
 
-> O uso principal de redes está relacionado ao compartilhamento de recursos, com objetivo de levar todos os programas, equipamentos e especialmente dados ao alcance de todas as pessoas na rede, independente da localização física do recurso e do usuário. O uso de redes de computadores fez com que as empresas não precisassem usar os computadores de forma independente. As redes são  compartilhar recursos físicos, como impressoras, scanners e gravadores de CDs, seja compartilhar informações. Todas as empresa de grande e médio porte e muitas empresas pequenas têm grande necessidade de informações on-line, pesquisa ou disponibilidade de serviços. As redes de computadores estão no dia-a-dia de quem acessa seus celulares e computadores, acessando nuvens que contém conteúdo.
+Em minha opinião, o maior uso de tráfego na internet vem das plataformas de streaming, seja de vídeos, ou de games, atualmente estão desenvolvendo tecnologias como o google stadia que será um streaming para que uma pessoa, que não possui um hardware potente, utilize uma máquina do google para jogar, de sua casa. Portanto, em minha visão o streaming é, e ainda tem potencial para ser ainda mais, a plataforma que mais utiliza o tráfego na internet.
 
-> Sobre o futuro das redes de computadores, tudo indica que teremos um cenário onde tudo será automatizado e migrado para as "nuvens", no caso grandes datacenters que terão capacidades absurdas de gerenciamento e, atualmente, já possuem a necessidade de engenheiros e cientistas de dados para gerenciar da melhor forma  possível todo conteúdo que as redes enviarão via antenas diretamente aos usuários, um futuro sem fios.
+- Os sistemas telefônicos utilizam o conceito de comutação de circuitos, já os sistemas computacionais utilizam comutação de pacotes. Explique a diferença entre os dois conceitos.
 
-> Conforme o surgimento da internet as empresas viram que seus dados e negócios tinham potencial de alcançar o mundo inteiro, avançando com a globalização, tudo isso graças a os avanços que a internet da desde os anos 80, e, como o avanço da tecnologia ocorre de maneira exponencial, tivemos um rápido avanço levando conexão para todos cada dia mais e com melhor qualidade.
+A comutação de circuito é usada no tráfego de voz, ela é a base para o sistema telefônico tradicional, o circuito estabelecido ficava reservado durante toda a duração da conversação. A comutação de pacotes é usada para o tráfego de dados, sendo por sua vez, a base para a Internet e para a Voz sobre IP.
 
 #### 2. Suponha que você trabalhe em uma empresa que precisa conectar duas redes situadas a 100 metros de distância uma da outra a uma velocidade de 10 Gigabits por segundo. Qual tipo de cabeamento você utilizaria e por quê?
 
