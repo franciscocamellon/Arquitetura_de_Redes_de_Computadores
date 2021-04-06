@@ -29,118 +29,206 @@ CURSO DE ENGENHARIA DE SOFTWARES</h2>
 <p><br></p>
 <p><br></p>
 
-### Questões discursivas  
-
-
-
-#### 1. Qual tipo de utilização faz o maior uso de tráfego na internet na sua opinião? Justifique sua resposta.  
-
+#### 01. Qual tipo de utilização faz o maior uso de tráfego na internet na sua opinião? Justifique sua resposta.
 
 Em minha opinião, o maior uso de tráfego na internet vem das plataformas de streaming, seja de vídeos, ou de games, atualmente estão desenvolvendo tecnologias como o google stadia que será um streaming para que uma pessoa, que não possui um hardware potente, utilize uma máquina do google para jogar, de sua casa. Portanto, em minha visão o streaming é, e ainda tem potencial para ser ainda mais, a plataforma que mais utiliza o tráfego na internet.
 
-- Os sistemas telefônicos utilizam o conceito de comutação de circuitos, já os sistemas computacionais utilizam comutação de pacotes. Explique a diferença entre os dois conceitos.
+#### 02. Os sistemas telefônicos utilizam o conceito de comutação de circuitos, já os sistemas computacionais utilizam comutação de pacotes. Explique a diferença entre os dois conceitos.
 
 A comutação de circuito é usada no tráfego de voz, ela é a base para o sistema telefônico tradicional, o circuito estabelecido ficava reservado durante toda a duração da conversação. A comutação de pacotes é usada para o tráfego de dados, sendo por sua vez, a base para a Internet e para a Voz sobre IP.
 
-#### 2. Suponha que você trabalhe em uma empresa que precisa conectar duas redes situadas a 100 metros de distância uma da outra a uma velocidade de 10 Gigabits por segundo. Qual tipo de cabeamento você utilizaria e por quê?
 
-> Usaria cabeamento Cat6 (categoria 6), assim ele suportaria velocidades de até 10 Gigabits, e com distancias até 100m, sendo perfeito para o cenário mostrado, sendo que esse cabeamento, em redes domésticas, dificilmente usa todo seu potencial, sendo uma boa opção para empresas.
+ITEM | COMUTAÇÃO DE CIRCUITOS | COMUTAÇÃO DE PACOTES
+-----|------------------------|---------------------
+Configuração de chamadas | Obrigatória | Não necessária
+Caminho físico dedicado | Sim | Não
+Pacotes seguem o mesmo caminho | Sim | Não
+Pacotes chegam na mesma ordem | Sim | Não
+Reserva da largura de banda | Fixa | Dinâmica
+Largura de banda desperdiçada | Sim | Não
+A falha de um equipamento é fatal | Sim | Não
 
-#### 3. Faça uma pesquisa e encontre as principais fontes de interferência em uma rede 802.11. Depois, monte uma lista com pelo menos 3 recomendações para que uma rede 802.11 tenha um melhor desempenho (seja velocidade ou qualidade do sinal).
+fonte: [https://www.teleco.com.br/tutoriais/tutorialvoipconv/pagina_3.asp](https://www.teleco.com.br/tutoriais/tutorialvoipconv/pagina_3.asp)
 
-> Barreiras físicas, como paredes e principalmente metais, como a malha de metal que fica entre o cimento do teto, caso queira acessar uma conexão que está vindo de um andar diferente, o alcance é um fator que varia, dependendo do tipo de placa 802.11, corpos com grandes concentrações líquidas também são um grande obstáculo e finalmente temos micro-ondas, fornos, transmissores de rádio e outros aparelhos que operam na mesma frequência que os das redes wireless.
+#### 03. Quando o assunto é classificação das redes quanto a Cobertura Geográfica, cite 3 itens que diferenciam redes LAN e PAN.
 
-#### 4. Quais são as diferenças entre os padrões 802.11 b, g, n e ac? Monte uma tabela com os detalhes técnicos mais pertinentes.
+LAN - Local Area Network: Conectam computadores presentes dentro de um espaço curto, podendo ser uma residência, uma empresa ou uma escola. PAN - Personal Area Network: Usada para que dispositivos se comuniquem em uma area muito limitada. Um exemplo disso são dispositivos Bluetooth. A diferença principal é que o objetivo da rede PAN é conectar dispositivos próximos para que eles façam uma simples troca de informações, ou conectar dispositivos como mouses, teclados e fones a computadores e smartphones, já a rede LAN tem por objetivo fazer a conexão de inúmeros dispositivos dentro da rede para se comunicarem, trocarem informações de forma constante e os conectarem a internet. primeiro temos uma conexão a internet, maior distância, no geral, de conexão, maior constância para e quantidade de dispositivos, no geral, na conexão LAN em relação a conexão PAN.
 
-> **IEEE 802.11a:** Esse padrão é usado normalmente em empresas que utilizam grande tráfego de informações. Uma vantagem ao utilizar esse padrão é ter altas velocidades e ausência de interferências. Esse padrão Wi-Fi é para frequência 5 GHz com capacidade teórica de 54 Mbps. Nesse padrão temos o problema do alcance, que é para curtas distâncias.
+#### 04. Qual a diferença entre switch e roteador? Os dois tem a mesma função? Explique detalhadamente.
 
-> **IEEE 802.11b:** Padrão mais usado para redes domésticas e encontrado em empresas de pequeno porte. Sua vantagem é seu alcance. A sua velocidade costuma ser inferior às outras, sendo isso sua desvantagem. O padrão Wi-Fi para frequência 2,4 GHz com capacidade teórica de 11 Mbps.
+Um Switch serve como controlador, permitindo que os dispositivos conectados a ele possam conversar entre si de forma eficiente, switches facilitam o compartilhamento de recursos, conectando todos os dispositivos, inclusive computadores, impressoras e servidores, na rede de uma empresa de pequeno porte. Graças ao switch, esses dispositivos conectados podem compartilhar informações e conversar entre si, independentemente de onde estejam, seja em um prédio ou no campus. Não é possível construir uma rede de empresa de pequeno porte sem os switches para unir os dispositivos. Assim como um switch, o roteador conecta vários dispositivos para criar uma rede. Além disso, um roteador conecta vários switches e suas respectivas redes para formar uma rede ainda maior, o roteador também permite que os dispositivos em rede e os vários usuários acessem a Internet. Por fim, um roteador funciona como um distribuidor, direcionando o  tráfego e escolhendo a rota mais eficiente para obter informações na forma de pacotes de dados e viajar pela rede. Um roteador conecta sua empresa ao mundo, protege as informações contra ameaças à segurança e decide quais dispositivos têm prioridade sobre os outros, como o próprio nome indica ele roteia, seleciona a melhor rota para os pacotes.
 
-> **IEEE 802.11g:** Esse padrão poder ser comparado ao (b), porém, se comparado a velocidade, esse padrão costuma responder melhor. Igualmente ao padrão (b), é amplamente usado em residência e empresas de porte pequeno. Para tanto, como desvantagem, o alcance costuma ser menor ao padrão (b). O padrão Wi-Fi para frequência 2,4 GHz com capacidade teórica de 54 Mbps.
+fonte: [https://www.cisco.com/c/pt_br/solutions/small-business/resource-center/networking/network-switch-vs-router.html](https://www.cisco.com/c/pt_br/solutions/small-business/resource-center/networking/network-switch-vs-router.html)
 
-> **IEEE 802.11n (Wi-fi 4):** Nomeado como Wi-fi 4 pela Wi-Fi Alliance (organização responsável pela certificação dos padrões Wi-fi), o padrão Wi-fi 802.11n é ultrapassado. O Wi-fi 4 utiliza as frequências de 2,4Ghz e 5Ghz (opcional). A transferência para o IEEE 802.11n fica entre 54Mbit/s e 600Mbit/s.
+#### 05. O equipamento doméstico que fornece acesso a internet, que tem portas para rede cabeada e também para wifi é um roteador? Um modem? Ou um ponto de acesso? Justifique sua resposta.
 
-> **IEEE 802.11ac (Wi-fi 5):** Nomeado como Wi-fi 5 pela Wi-Fi Alliance, o padrão Wi-fi 802.11ac é a tecnologia mais utilizada hoje em dia. Temos algumas mudanças comparado ao padrão Wi-fi 802.11n, temos o aumento da amplitude de canais (80Mhz ou 160Mhz contra 40Mhz) na banda de 5GHz, maior numero de fluxos (até 8 antenas contra quatro) e a adição da tecnologia MIMO multiusuário (MU-MIMO), permitindo uma alta taxa de transferência de dados mesmo em 
-ambientes com grande número de dispositivos cliente.
+O roteador, pois de certa forma ele faz a distribuição do acesso a internet nos dispositivos da casa, o roteador é responsável por fazer rotas, vai receber os pacotes e encaminhá-los ao seu destino, escolhendo a melhor rota possível na rede, distribui a internet para um ou mais dispositivos, seja via cabo de rede, ou pela rede Wi-Fi.
 
-#### 5. Explique a diferença entre Comutação de Circuitos e Comutação de Pacotes. Forneça pelo menos um exemplo de cada conceito.
+#### 06. Além da quantidade de camadas, o que diferencia o modelo OSI do modelo TCP/IP?
 
-> A comutação de circuito é usada no tráfego de voz, ela é a base para o sistema telefônico tradicional, o circuito estabelecido ficava reservado durante toda a duração da conversação. A comutação de pacotes é usada para o tráfego de dados, sendo por sua vez, a base para a Internet e para a Voz sobre IP.
+Os modelos trabalham em com modelos de camadas, tratam de protocolos independentes, porém são diferentes. O modelo OSI possui 7 camadas, o TCP/IP apenas 4, o TCP/IP mescla as camadas 1 e 2 do modelo OSI como camada de aplicação. A camada de Redes do OSI é chamada de Internet no TCP/IP. Os modelos foram desenvolvidos com objetivo de padronização das redes. O modelo OSI, modelo de referência da ISO, se tornou um modelo que seria base para garantir compatibilidade, interoperabilidade, portabilidade e escalabilidade. O modelo OSI não é uma arquitetura de redes, pois não especifica os serviços e protocolos exatos que devem ser usados em cada camada. Ele apenas informa o que cada camada deve fazer.
 
-> [Comparação entre comutações de circuitos e pacotes](https://www.notion.so/0401de1f528a4ed2a385112d00c6c937)
+#### 07. Altere a velocidade da placa de rede do seu computador. O exemplo está no material de aula, na Etapa 2 – Alteração da velocidade da placa de rede. Siga o passo do passo do material e mostre uma captura de tela com a alteração. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura. Dica: Você precisa ser administrador do Windows para fazer essa alteração.
 
-> fonte: [https://www.teleco.com.br/tutoriais/tutorialvoipconv/pagina_3.asp](https://www.teleco.com.br/tutoriais/tutorialvoipconv/pagina_3.asp)
+![image](./images/mudando_vel_interntet_1.png)
 
-#### 6. Foi estudado que uma rede pode ser classificada quanto a sua topologia física e cobertura geográfica. Considerando essas classificações, detalhe como a rede Wi-Fi é classificada.
+![image](./images/mudando_vel_interntet_2.png)
 
-> Topologia Wireless, de rede sem fio, seria uma WLAN, no caso de ser analisada do ponto de vista de um roteador fornecendo rede a uma residência, no caso da distribuição diretamente da provedora de internet, visualizamos como WMAN, como sendo uma rede metropolitana, pelo fato de sair da provedora e ir para a residência.
+![image](./images/mudando_vel_interntet_3.png)
 
-#### 7. O hub é um equipamento de rede que foi substituído pelo switch. Qual a diferença entre eles? Qual situação indesejada em uma rede que deixou de existir com os switches?
+#### 08. Quais são as vantagens e/ou desvantagens dos meios de transmissão por cabos metálicos quando comparados aos meios de transmissão por fibra ótica?
 
-> O Hub tinha como objetivo interligar computadores em uma rede local, ele pega dados de uma máquina e transmite para outra, porém durante o processo existe um congestionamento na rede, que as demais máquinas devem esperar o processo encerrar para executar outras transferências, as redes conectadas por hubs apresentam lentidão. Os Switches são aparelhos que tem funções parecidas com as do Hub, porém criam canais de comunicação exclusivos para as máquinas que estão trocando dados na rede. No caso o Switch solucionou a questão da lentidão e limitação que o hub traz pra uma rede, assim fazendo com que a rede não fique congestionada, estabelecendo conexões paralelas.
+A vantagem da internet a cabo é o preço. São diferenças notáveis entre fibra e cabo, qualquer um pode pensar que o preço da fibra óptica é maior, mas isto não é necessariamente verdade. Quando a tecnologia começou a se popularizar, os fios ópticos eram realmente mais caros que os cabos de cobre comuns. Porém, com o aumento da demanda, os custos caíram e hoje a Fibra óptica pode até sair mais barata em alguns lugares. Além disso, o uso de luz para transmitir sinais, no lugar da eletricidade, reduz, é claro, o uso de energia elétrica. A longo prazo, pode-se considerar um investimento. No entanto, o preço varia se procuramos conexões de **fibra ótica de alta velocidade**.
+Qualquer serviço de fibra com velocidade superior a 50Mb será mais caro e seu preço aumentará à medida que você contratar mais velocidade.
 
-#### 8. O que diferencia o modelo OSI do modelo TCP/IP? Eles têm o mesmo objetivo? Por que um virou padrão de mercado e outro é apenas uma referência? Seja profundo em sua resposta.
+#### Cabo:
 
-> Os modelos trabalham em com modelos de camadas, tratam de protocolos independentes, porém são diferentes. O modelo OSI possui 7 camadas, o TCP/IP apenas 4, o TCP/IP mescla as camadas 1 e 2 do modelo OSI como camada de aplicação. A camada de Redes do OSI é chamada de Internet no TCP/IP. Os modelos foram desenvolvidos com objetivo de padronização das redes. O modelo OSI, modelo de referência da ISO, se tornou um modelo que seria base para garantir compatibilidade, interoperabilidade, portabilidade e escalabilidade. O modelo OSI não é uma arquitetura de redes, pois não especifica os serviços e protocolos exatos que devem ser usados em cada camada. Ele apenas informa o que cada camada deve fazer.
+Vantagens:
 
-#### 9. Pesquise o que é “Internet das Coisas” e explique o que é esse novo conceito.
+* É necessário pouco investimento, porque o cabo usa uma infra-estrutura já existente
+* Possibilidade de falar ao telefone enquanto navega
+* Boa relação velocidade/preço em comparação com outras conexões
 
-> Objetos que possuem sensores, softwares e outras tecnologias, o objetivo é conectar e trocar dados com outros dispositivos, tornando os objetos interconectados. Os dispositivos podem ser domésticos, ferramentas industriais, dentre outros. A tendência é o aumento drástico desses objetos, fazendo com que no futuro tenhamos casas totalmente inteligentes, roupas e outros utilitários. A Conectividade, sensores, processamento em nuvem, machine learning e a Inteligência artificial, tornam possível o IoT
+Desvantagens:
 
-## Questões práticas
-#### 10. Monitorar com o Wireshark o tráfego da sua rede e capturar uma consulta ARP (request e reply) que mostre o endereço MAC e o endereço IP. Você deve capturar a tela do Wireshark e colocar setas para apontar as linhas onde o request e o reply acontecem. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
+* Em países com poucas infraestruturas é menos econômico
+* A velocidade do cabo é muito menor do que as velocidades oferecidas pela F¡fibra óptica
+* Um bom serviço de Cabo depende de fatores externos, como o status da fiação ou a distância da casa até a central telefônica
 
-![image](./images/p_q10.png)
+#### Fibra:
 
-#### 11. Mostre a tela de configuração de "Filtro de endereço MAC" de um ponto de acesso Wi-Fi, onde é possível configurar os endereços MAC de clientes autorizados a acessar a rede Wi-Fi. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
+Vantagens:
 
-#### 12. Altere o endereço MAC de uma placa de rede. Você deve capturar a tela com o endereço MAC original (usando o comando ipconfig /all) e depois com o endereço alterado. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
+* Permite alto fluxo de dados
+* Fácil instalação
+* Não produz interferência
+* Grande resistência ao calor e ao frio
+* Leve: nove vezes menos pesado que o fio de cobre
+* Maior segurança de conexão
 
-Anterior:
+Desvantagens:
 
-![image](./images/print_q12_1.png)
+* Ainda não chega a muitas casas e em áreas rurais
+* Receptores e transmissores são mais caros
+* Não é possível unir a fiação, o que dificulta os reparos
 
-Modificado:
+#### 09. Qual o endereço MAC do computador com endereço IP 192.168.0.1?
 
-![image](./images/print_q12_1%201.png)
+![image](./images/q9_at.png)
 
-#### 13. Faça uma tabela comparativa com os custos para registrar e hospedar um site com domínio “.com.br”. Faça a cotação em pelo menos 3 empresas e indique o nome da empresa, valor, principais recursos oferecidos (por exemplo: armazenamento ilimitado, e-mail gratuito, etc.).
+70:4f:57:91:77:76
 
-> #### GoDaddy:
-> R$:19,99 no primeiro ano, necessária a compra de dois anos e o segundo por R$:64,99. Um dos principais recursos oferecidos pela GoDaddy é o investimento em segurança que a empresa tem. A GoDaddy se intitula o maior registrador do mundo, conhecida também por possuir um suporte premiado.
+#### 10. Cite 3 funções importantes da camada de enlace do modelo TCP/IP.
 
-> #### Registro.br:
-> Ao registrar um domínio .br você está, independente da empresa, fazendo pelo [Registro.br](http://registro.br), no caso de utilizar outra empresa, está apenas sendo utilizada a empresa como intermediária do processo, então ao fazer diretamente pelo Registro.br você não deixa suas informações com demais sites e acaba tendo esse ponto a mais na segurança.
+Oferecer serviços a camada de rede, detecção e correção de error de transmissão e regular o fluxo de dados de modo que um host mais rápido não sobrecarregue um mais lento. É responsável pela inserção de pacotes TCP/IP no caminho, e também por receber os pacotes fora dele. Dessa forma é conhecida também por ser responsável pela interface da rede, que compatibiliza a tecnologia com o protocolo IP. A camada de enlace, do modelo OSI, que no modelo TCP/IP são a camada de acesso a rede.
 
-> #### HostGator:
-> A HostGator possui um suporte disponível 24h todos os dias, segundo eles um painel de controle interativo e fácil de usar, Proteção Whois (ID Protect) – que permite manter ocultos dados sensíveis como nome, endereço e telefone, para domínios internacionais (.com, .org e .net).
+#### 11. Compare a quantidade de endereços do IPv4 com a quantidade de endereços do IPv6. Indique também qual a relação IP por habitante nos dois protocolos. Considere que a população
+mundial tem 6 bilhões de habitantes.
 
-> #### Locaweb:
-> O serviço de registro de domínios é oferecido por um preço único para todas as extensões disponibilizadas. No primeiro ano, qualquer domínio pode ser registrado por R$ 36,90, com renovação por R$ 82,90, valor acima da média de mercado. A empresa não oferece o recurso de privacidade de domínio.
+A quantidade de endereços IPV4 fica em torno de 4 bilhões contra 340 undecilhões do IPV6, sucessor do IPV4.  A relação do IPV4 para população mundial fica 0,667 já em relação ao IPV6 temos algo como: 3,4 x 10 ^ 38  / 6 x 10 ^ 9.
 
+#### 12. Foram estudadas 3 formas de combater a exaustão do IPv4: NAT, IPv6 e Endereços privados. Qual delas é uma solução definitiva para o problema da exaustão de endereços?
 
- Empresa | Detalhe    | Privacidade de domínio    | Preço/Ano     
------------- | ------------- | ------------- | ------------- 
-Registro.br | Preço mantido na renovação | Não se aplica | R$ 40,00 
-Godaddy | Maior variedade de extensões | Paga à parte | R$ 19,99 
-HostGator | Menor preço na compra de 2 anos | Paga à parte | R$ 39,99 
-Locaweb | Renovação entre as mais caras | Paga à parte | R$ 36,90 
+O NAT, como mencionado no roteiro de aprendizagem, garantiu alguns anos de vida ao IPV4, porém, não foi a solução definitiva, o IPV6 é o sucessor do IPV4, garantindo uma longevidade absurda, o IPV4, como visto na questão anterior, suporta uma quantidade absurda de endereços.
 
+#### 13. Explique por que o protocolo IP apenas faz o envio de pacotes sem dar garantias de entrega. Forneça também o nome desse conceito.
 
-#### 14. Faça uma tabela comparativa com os custos para registrar e hospedar um site com domínio “.com” em empresas estrangeiras. Faça a cotação em pelo menos 3 empresas e indique o nome da empresa, valor, principais recursos oferecidos (por exemplo: armazenamento ilimitado, e-mail gratuito, etc.). Compare com os preços nacionais do exercício anterior e argumente o motivo pelo qual existe diferenças de preços.
+O protocolo IP é não orientado à conexão, não garantindo que os pacotes IP cheguem ao seu destino nem se chegam pela ordem com que foram enviados. O IP é o protocolo responsável por definir o caminho que um pacote de dados deverá percorrer desde o host de origem até ao host destino, passando por uma ou várias redes onde poderá encontrar protocolos de conexão. O TCP particiona os dados recebidos da camada de aplicação em blocos menores, conhecidos como datagrama, logo em seguida, identifica os datagramas com cabeçalhos, fazendo com que o host destino possa recompor os dados, em casos de erro de transmissão o TCP tem o dever de retransmitir o pacote.
 
-Empresa/Opções | A2 Hosting    | ACCU    | DreamHost     | Liquid Web     | Ionos     |
------------- | ------------- | ------------- | ------------- | ------------- | -------------
-Shared Hosting | Sim | Sim | Sim | Sim | Não |
-VPS Hosting | Sim | Sim | Sim | Sim | Não |
-Dedicated Hosting | Sim | Sim | Sim | Sim | Sim |
-WordPress Hosting | Sim | Sim | Sim | Sim | Sim |
-Cloud Hosting | Sim | Sim | Sim | Sim | Sim |
-Linux Servers | Sim | Sim | Sim | Sim | Sim |
-Windows Servers | Sim | Sim | Não | Sim | Sim |
-24/7 Customer Support | Sim | Sim | Sim | Sim | Sim |
-Price/month | US$9.31 | US$3.36 | US$3.59 | US$19 | US$10 |
+#### 14. Considere a figura abaixo que ilustra uma rede que interconecta diversos estados do Brasil, cada roteador dessa rede é identificado por uma letra, e estão conectados por links que estão identificados com seu tempo de resposta. Qual o caminho entre a rede A e a rede G com o menor tempo de resposta?
 
-#### 15. Veja a seguir a captura de dois pacotes ARP feita com o software Wireshark. Explique o que estava acontecendo no momento em que os pacotes foram capturados. Indique qual era o endereço MAC relativo ao endereço IP 192.168.0.114.
+![image](./images/q14_at.png)
 
-![image](./images/img_q_final.png)
+#### A → D → E → G = 13 ms.
+
+#### 15. A maior diferença entre o TCP e o UDP está na questão da confiabilidade. Cite 3 mecanismos utilizados pelo TCP para garantir a confiabilidade de uma conexão.
+
+O protocolo TCP agrega cabeçalhos nos bit de controle de fluxo e recebimento, sendo o TCP orientado a conexão, fazendo uma conexão dos dispositivos envolvidos antes de transmitir os dados, através do Acknowledgment, tendo uma velocidade menor, enviando os pacotes em sequência, detectação e correção dos erros, reenviando os pacotes se necessário, fazendo o controle de congestionamento e reconhecimento, todas essas características fazem com que o protocolo TCP seja mais confiável.
+
+#### 16. O UDP é um protocolo da camada de transporte onde a maior característica é o envio rápido de pacotes, sem muitos atrasos. Forneça o nome de 3 protocolos (ou tecnologias) que
+façam uso do UDP.
+
+O Skype usa também o protocolo UDP para envio de mídias em suas vídeo-chamadas.
+
+Comunicação com impressoras, sendo utilizado para descoberta desses dispositivos na rede, e para descoberta desses dispositivos na rede, fornecendo informações como nível de tinta e status da máquina.
+
+O Discord utiliza o UDP para compartilhar mídia, vídeo-chamadas e chamadas de voz.
+
+#### 17. Considerando a figura a seguir, existe uma requisição utilizando o protocolo DHCP. Qual o endereço IPv4 do servidor DHCP, e qual o endereço IP fornecido ao cliente?
+
+![image](./images/q17_at.png)
+
+O IPV4 do servidor é: 198.168.0.105
+
+IP do cliente: 162.125.18.133
+
+#### 18. Monitore com o Wireshark o tráfego da sua rede, acesse o site ftp://speedtest.tele2.net/ usando seu browser. Use o filtro do Wireshark para exibir somente os pacotes relacionados a essa conexão FTP. Você deve capturar a tela do Wireshark e colocar setas para apontar as linhas onde os pacotes do 3-way handshake do TCP estão localizados. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
+
+![image](./images/wireshark_ftp_cap.png)
+
+#### 19. Explique com suas palavras o que é SLA. Dê um exemplo de como um usuário doméstico pode mostrar ao seu provedor de internet que o mesmo não está cumprindo com o contrato.
+
+Acordo de Nível de Serviço -É especificação, em termos mensuráveis e claros, de todos os serviços que o contratante pode esperar do fornecedor na negociação, apresenta prazos de contrato, termos de compromisso, suporte técnico, metas de nível de serviço. É um esclarecimento técnico do do contrato, são estabelecidos requisitos contratuais no que se refere a forma de entrega, responsabilidades e outros fatores que envolvem a relação contratante e fornecedor do serviço.
+
+Referente a o exemplo solicitado, segundo o SLA deve haver disponibilidade na prestação do serviço, qualidade técnica, prazos e tempos de resposta, dentre outros, em casos de falhas na prestação do serviço sem qualquer justificativa, falta de atendimento do suporte e constante falta de disponibilidade, no caso da internet e softwares, deveriam ter a disponibilidade entre 99 e 99,99%, dentro desses casos é possível o contratante recorrer e solicitar uma indenização.
+
+#### 20. Explique porque a perda de pacotes pode causar lentidão no acesso à internet.
+
+A perda de pacotes pode ocasionar em, cada vez mais,  congestionamento da rede, consequentemente causando lentidão pela necessidade de reenvio, aumentando o tempo de resposta.
+
+#### 21. A tecnologia de VPN é muito utilizada nas empresas para permitir que usuários acessem a rede da empresa, ou até mesmo trabalhem de “home office”. Também estudamos que a VPN pode ter outro uso, que é o de esconder o endereço real de um computador. Explique como a VPN pode esconder o endereço real de um computador.
+
+Por meio de rede privada (VPN), conseguimos ter uma maior criptografia nas informações e nas comunicações entre hosts da rede privada é possível aumentar consideravelmente a confidencialidade dos dados que trafegam pela rede. Os custos de VPN ainda são mais em conta que fazer a utilização de links dedicados, ainda mais com o aumento das distancias.
+
+#### 22. Quais as vantagens em se fazer traffic shaping no tráfego de saída de uma empresa?
+
+Como o próprio nome diz, traffic shaping é a metodologia de modelar o tráfego de uma rede, seja para priorizar certos tipos de serviços, usuários e máquinas em uma determinada rede, ao utilizar no tráfego de saída de uma rede, podemos melhorar a entrega da empresa para o usuário, melhorar o tempo de resposta e em geral priorizar o recebimento do usuário.
+
+#### 23. Considerando os testes White Box, Gray Box e Black Box, qual deles realiza um teste que simula um ataque de alguém que conhece a empresa e tem credenciais válidas?
+
+Nesse caso, o que mais se aproxima das informações prestadas é o teste Gray Box.
+
+#### 24. O que é um Hacker Ético?
+
+Hacker ético é aquele que ao acessar um sistema ou informações privadas, reporta ao dono (seja empresa ou fornecedor de serviço) as informações sobre as falhas de segurança, um hacker ético pode trabalhar pra uma empresa ou várias, pode até ser freelancer, existem inúmeras empresas, como microsoft, facebook, dentre outras, que pagam enormes quantias por falhas de seguranças ou bugs que sejam encontrados e reportados, também conhecidos, nesse caso, como bug bounties.
+
+#### 25. Considerando a requisição HTTP abaixo, identifique: o nome do servidor, a URL, e qual usuário e senha foram utilizados para acessar o sistema. Deve-se descobrir qual a senha original, não apenas o hash.
+
+![image](./images/q_25_at.png)
+
+usuário → professor
+
+hash → e3050067fc0bb156ab4904c7b2b5a2b7
+
+senha → senhaforte
+
+#### 26. Considere a seguinte captura do protocolo SMTP feita no Wireshark de uma conexão e descubra qual o usuário e senha utilizados.
+
+![image](./images/q26_at.png)
+
+Usuário → Z3VycGFydGFwQHBhdHJpb3RzLmlu → [gurpartap@patriots.in](mailto:gurpartap@patriots.in)
+
+Senha → cHVuamFiQDEyMx== → punjab@123
+
+#### 27. Forneça 5 itens que você considera fundamentais em uma política de segurança corporativa.
+
+- Uma infraestrutura de rede impecável, de forma que o sistema esteja sempre no ar e integro, para evitar ataques aos servidores, ataques que possam destruir as informações, os bancos de dados da empresa.
+- Confidencialidade com os dados dos usuários, os dados, dos usuários, devem ser tratados de forma que praticamente 99.9% da empresa não tenha acesso, apenas os profissionais que devem tratar esses dados no banco de dados, ou os profissionais de segurança da informação, fazendo com que seja uma informação bem internalizada da empresa, focando sempre em contratar profissionais que tenham sua integridade e inabalável.
+- Integridade dos dados, de forma que eles sejam passados aos usuários como realmente devem ser, sem sofrerem alterações que prejudiquem a passagem de informação, evitando que qualquer alteração indesejada ou acidental ocorra.
+- Sistemas de autenticação blindados, evitando qualquer tipo de acesso ao sistema ou banco de dados de forma indesejada
+- Engenharia social para evitar qualquer tipo de hackeamento físico, do tipo que o invasor se aproveita das falhas de segurança físicas da empresa, conseguindo chegar e acessar os dados diretamente de dentro do local.
+
+#### 28. Quando falamos de ataque de força bruta, qual é a forma mais eficiente, na sua opinião, de evitar o ataque? Cite 2 formas de proteção.
+
+De forma geral, os sistemas, que irão guardar informações sensíveis sobre o usuário, devem fazer com que o usuário utilize senhas mais complexas, com mais tipos de caracteres, com um número mínimo de extensão da senha e utilizando sistemas como captchas, que verificam se é uma máquina ou usuário tentando fazer o acesso, limitar a quantidade de tentativas, enviando alertas ao email do usuário, pode ser outra medida que garante maior segurança, fazendo com que programas utilizados para quebrar senhas, não tenham eficácia.
+
+#### 29. Quando o assunto é perda/recuperação de dados, qual o risco do proprietário de um celular,
+ou de uma câmera, quando se vende o aparelho para outra pessoa?
+
+No geral, se deve fazer toda uma limpeza nos caches do aparelho, logo em seguida a remoção de chips e cartões de memória, após isso, fazer um backup e uma a formatação completa do aparelho para garantir que os dados foram removidos, logo em seguida se recomenda fazer uma verificação se realmente os dados em geral foram apagados.
+
+#### 30. Considerando a imagem já vista no material, que é mostrada abaixo, encontre 3 problemas que estão presentes na imagem, mas que não estavam listados diretamente na política de segurança.
+
+![image](./images/q30_at.png)
+
+Podemos observar na imagem máquinas logadas, sem que o operador esteja próximo, exposição de usuários e senhas, compartilhamento de senhas, compartilhamentos de discos, documentos da empresa jogados em lixeiras que não foram descartados de forma apropriada (destruídos), acesso de pessoas de fora da empresa ao escritório, podendo visualizar o trabalho dos funcionários de forma indiscriminada.
