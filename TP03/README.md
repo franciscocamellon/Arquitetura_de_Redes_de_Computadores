@@ -1,4 +1,3 @@
-
 <p align="center"><img src="./images/infnet_logo.jpg" /></p>
 
 ---
@@ -13,133 +12,155 @@ CURSO DE ENGENHARIA DE SOFTWARES</h2>
 <p><br></p>
 <p><br></p>
 <p><br></p>
-<h3 align="center"> TP 3 - Arquitetura de Redes de Computadores</h3>
+<h3 align="center"> TP 3. Arquitetura de Redes de Computadores</h3>
+<p><br></p>
 <p><br></p>
 <p><br></p>
 <p><br></p>
 <h4 align="center">Profº Adriano Saad</h4>
 <p><br></p>
-<p><br></p>
 
 ---
+
 <p align="center">Brasília<br> 15 de março de 2021</p>
   
 <p><br></p>
 <p><br></p>
 <p><br></p>
 
-### Questões discursivas  
+### Questões discursivas
 
+#### 1. Comente 3 funcionalidades que podem existir na camada de aplicação do modelo TCP/IP.
 
+A camada mais próxima do usuário final, ela tem por função servir como terminal para as operações que ocorrem em uma rede.
 
-#### 1. Descreva os principais usos das redes de computadores. Pesquise e descreva tendências para o futuro das redes de computadores e da Internet. Por fim, argumente por que as redes de computadores e a Internet tiveram tanto sucesso em um espaço de tempo tão pequeno.  
+Capacidade de identificar codificação de caracteres para a conversão adequada e fazer criptografia, define uma interface de comunicação entre os hosts, representação de estruturas, padronizadas neste nível, geralmente usando XML.
 
+Quando alguém precisa requisitar algo que está em uma rede, é na camada de aplicação que irá ser feita a requisição ou recebimento de informações, fornecimento de serviços de rede "reais", ao usuário. A camada de aplicação é responsável por gerenciar e deixar disponível ao usuário, todos os sistemas e ferramentas a ele destinados.
 
-> O uso principal de redes está relacionado ao compartilhamento de recursos, com objetivo de levar todos os programas, equipamentos e especialmente dados ao alcance de todas as pessoas na rede, independente da localização física do recurso e do usuário. O uso de redes de computadores fez com que as empresas não precisassem usar os computadores de forma independente. As redes são  compartilhar recursos físicos, como impressoras, scanners e gravadores de CDs, seja compartilhar informações. Todas as empresa de grande e médio porte e muitas empresas pequenas têm grande necessidade de informações on-line, pesquisa ou disponibilidade de serviços. As redes de computadores estão no dia-a-dia de quem acessa seus celulares e computadores, acessando nuvens que contém conteúdo.
+#### 2. Considerando a requisição HTTP abaixo, identifique: o nome do servidor, a URL, o Browser, e qual usuário e senha foram utilizados para acessar o sistema.
 
-> Sobre o futuro das redes de computadores, tudo indica que teremos um cenário onde tudo será automatizado e migrado para as "nuvens", no caso grandes datacenters que terão capacidades absurdas de gerenciamento e, atualmente, já possuem a necessidade de engenheiros e cientistas de dados para gerenciar da melhor forma  possível todo conteúdo que as redes enviarão via antenas diretamente aos usuários, um futuro sem fios.
+- Nome do servidor: exemplo.com
+- URL: exemplo.com/index.php?acao=login
+- Browser: Mozilla Firefox
+- Usuário: donald
+- Senha: a1b2c3d4
 
-> Conforme o surgimento da internet as empresas viram que seus dados e negócios tinham potencial de alcançar o mundo inteiro, avançando com a globalização, tudo isso graças a os avanços que a internet da desde os anos 80, e, como o avanço da tecnologia ocorre de maneira exponencial, tivemos um rápido avanço levando conexão para todos cada dia mais e com melhor qualidade.
+![image](./images/Untitled.png)
 
-#### 2. Suponha que você trabalhe em uma empresa que precisa conectar duas redes situadas a 100 metros de distância uma da outra a uma velocidade de 10 Gigabits por segundo. Qual tipo de cabeamento você utilizaria e por quê?
+#### 3. Faça uma captura utilizando o Wireshark de tráfego DNS (UDP porta 53). Você deve capturar a tela com o resultado dos testes e apontar com setas onde estão os pacotes relevantes. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura. Dica: Inicie a captura de pacotes com o wireshark, e só depois acesse algum site.
 
-> Usaria cabeamento Cat6 (categoria 6), assim ele suportaria velocidades de até 10 Gigabits, e com distancias até 100m, sendo perfeito para o cenário mostrado, sendo que esse cabeamento, em redes domésticas, dificilmente usa todo seu potencial, sendo uma boa opção para empresas.
+Antes da captura:
 
-#### 3. Faça uma pesquisa e encontre as principais fontes de interferência em uma rede 802.11. Depois, monte uma lista com pelo menos 3 recomendações para que uma rede 802.11 tenha um melhor desempenho (seja velocidade ou qualidade do sinal).
+![image](./images/dns_1.png)
 
-> Barreiras físicas, como paredes e principalmente metais, como a malha de metal que fica entre o cimento do teto, caso queira acessar uma conexão que está vindo de um andar diferente, o alcance é um fator que varia, dependendo do tipo de placa 802.11, corpos com grandes concentrações líquidas também são um grande obstáculo e finalmente temos micro-ondas, fornos, transmissores de rádio e outros aparelhos que operam na mesma frequência que os das redes wireless.
+Iniciando a captura (Apenas o firefox, notion e kaspersky abertos):
 
-#### 4. Quais são as diferenças entre os padrões 802.11 b, g, n e ac? Monte uma tabela com os detalhes técnicos mais pertinentes.
+![image](./images/dns_2.png)
 
-> **IEEE 802.11a:** Esse padrão é usado normalmente em empresas que utilizam grande tráfego de informações. Uma vantagem ao utilizar esse padrão é ter altas velocidades e ausência de interferências. Esse padrão Wi-Fi é para frequência 5 GHz com capacidade teórica de 54 Mbps. Nesse padrão temos o problema do alcance, que é para curtas distâncias.
+Final da captura (Ao acessar o site do LinkedIn):
 
-> **IEEE 802.11b:** Padrão mais usado para redes domésticas e encontrado em empresas de pequeno porte. Sua vantagem é seu alcance. A sua velocidade costuma ser inferior às outras, sendo isso sua desvantagem. O padrão Wi-Fi para frequência 2,4 GHz com capacidade teórica de 11 Mbps.
+![image](./images/dns_3.png)
 
-> **IEEE 802.11g:** Esse padrão poder ser comparado ao (b), porém, se comparado a velocidade, esse padrão costuma responder melhor. Igualmente ao padrão (b), é amplamente usado em residência e empresas de porte pequeno. Para tanto, como desvantagem, o alcance costuma ser menor ao padrão (b). O padrão Wi-Fi para frequência 2,4 GHz com capacidade teórica de 54 Mbps.
+#### 4. Faça uma captura utilizando o Wireshark de tráfego DHCP (UDP porta 67 ou 68). Você deve capturar a tela com o resultado dos testes e apontar com setas onde estão os pacotes relevantes. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura. Dica: Inicie a captura de pacotes com o wireshark, e depois conecte e desconecte o cabo/placa de rede para ganhar um novo endereço IP.
 
-> **IEEE 802.11n (Wi-fi 4):** Nomeado como Wi-fi 4 pela Wi-Fi Alliance (organização responsável pela certificação dos padrões Wi-fi), o padrão Wi-fi 802.11n é ultrapassado. O Wi-fi 4 utiliza as frequências de 2,4Ghz e 5Ghz (opcional). A transferência para o IEEE 802.11n fica entre 54Mbit/s e 600Mbit/s.
+A captura foi feita filtrando apenas os protocolos DHCP, portanto não foi necessário sinalizar os pacotes relevantes.
 
-> **IEEE 802.11ac (Wi-fi 5):** Nomeado como Wi-fi 5 pela Wi-Fi Alliance, o padrão Wi-fi 802.11ac é a tecnologia mais utilizada hoje em dia. Temos algumas mudanças comparado ao padrão Wi-fi 802.11n, temos o aumento da amplitude de canais (80Mhz ou 160Mhz contra 40Mhz) na banda de 5GHz, maior numero de fluxos (até 8 antenas contra quatro) e a adição da tecnologia MIMO multiusuário (MU-MIMO), permitindo uma alta taxa de transferência de dados mesmo em 
-ambientes com grande número de dispositivos cliente.
+![image](./images/dhcp_1.png)
 
-#### 5. Explique a diferença entre Comutação de Circuitos e Comutação de Pacotes. Forneça pelo menos um exemplo de cada conceito.
+#### 5. Explique com suas próprias palavras os motivos pelos quais gerenciar uma rede é importante.
 
-> A comutação de circuito é usada no tráfego de voz, ela é a base para o sistema telefônico tradicional, o circuito estabelecido ficava reservado durante toda a duração da conversação. A comutação de pacotes é usada para o tráfego de dados, sendo por sua vez, a base para a Internet e para a Voz sobre IP.
+O gerenciamento de uma rede está associado a controlar os acessos, fazer com que a rede se mantenha estável, descongestionada, se possível melhorar a eficiência da rede, fazer com que a eficiência influencie em menores custos operacionais para a rede, manter a rede e as informações dela seguras, dentre outros motivos o gerenciamento de uma rede se faz tão importante. O gerenciamento de uma rede está associado ao controle de acessos, documentação de funcionamento e configuração da rede, auxílio ao usuário, disponibilidade e desempenho, gerência de problemas na rede, controle de inventário e etc.
 
-> [Comparação entre comutações de circuitos e pacotes](https://www.notion.so/0401de1f528a4ed2a385112d00c6c937)
+#### 6. Faça uma pesquisa na internet e liste pelo menos 3 softwares de monitoramento ou de gerência de redes.
 
-> fonte: [https://www.teleco.com.br/tutoriais/tutorialvoipconv/pagina_3.asp](https://www.teleco.com.br/tutoriais/tutorialvoipconv/pagina_3.asp)
+Wireshark: É um software livre e de código livre para analisar pacotes, ele analisa o tráfego de uma rede e o disponibiliza em uma interface gráfica.
 
-#### 6. Foi estudado que uma rede pode ser classificada quanto a sua topologia física e cobertura geográfica. Considerando essas classificações, detalhe como a rede Wi-Fi é classificada.
+Nmap: É um software que faz port scan, utilizado para verificar a segurança de máquinas, descobrir serviços/servidores em uma rede. Dispõe uma interface gráfica e de console. O software Nmap faz a descoberta de hosts, scaneia portas(TCP e UDP), detecção de serviços para descobrir nome e versão, detecção de sistemas operacionais e dentre outras funcionalidades.
 
-> Topologia Wireless, de rede sem fio, seria uma WLAN, no caso de ser analisada do ponto de vista de um roteador fornecendo rede a uma residência, no caso da distribuição diretamente da provedora de internet, visualizamos como WMAN, como sendo uma rede metropolitana, pelo fato de sair da provedora e ir para a residência.
+Pcap: É uma API que captura o tráfego de uma rede, softwares de monitoramento de redes utilizam as portabilidades atuais do Pcap (libpcap(Unix), Npcap(windows)) para fazer a captura de pacotes que trafegam na rede.
 
-#### 7. O hub é um equipamento de rede que foi substituído pelo switch. Qual a diferença entre eles? Qual situação indesejada em uma rede que deixou de existir com os switches?
+Spiceworks: É uma ferramenta de monitoramento de redes, com uma função de alerta em tempo real. É um Dashboard em tempo real, dá a possibilidade de monitorar os status de dispositivos e serviços, e alertando se valores específicos estão diferentes dos critérios prédefinidos.
 
-> O Hub tinha como objetivo interligar computadores em uma rede local, ele pega dados de uma máquina e transmite para outra, porém durante o processo existe um congestionamento na rede, que as demais máquinas devem esperar o processo encerrar para executar outras transferências, as redes conectadas por hubs apresentam lentidão. Os Switches são aparelhos que tem funções parecidas com as do Hub, porém criam canais de comunicação exclusivos para as máquinas que estão trocando dados na rede. No caso o Switch solucionou a questão da lentidão e limitação que o hub traz pra uma rede, assim fazendo com que a rede não fique congestionada, estabelecendo conexões paralelas.
+#### 7. Usuários ligaram para o suporte reclamando que não conseguiam imprimir seus arquivos na impressora da empresa. A primeira ação do funcionário do suporte foi executar um PING no endereço IP da impressora. Explique por que ele fez isso.
 
-#### 8. O que diferencia o modelo OSI do modelo TCP/IP? Eles têm o mesmo objetivo? Por que um virou padrão de mercado e outro é apenas uma referência? Seja profundo em sua resposta.
+O PING pode ser usado para avaliar um sistema, ao fazer mudanças na rede, ou até a mesma apresentar problemas. Usando um tipo simples de pacote, temos uma resposta do subsistema de comunicação (TCP/IP) do sistema operacional, é bem simples de ser executado e rápido, para fazer uma verificação simples, avaliando a conexão e o tempo de comunicação com outro ponto. O funcionário do suporte fez essa verificação com objetivo de verificar se a impressora estava conectada na rede.
 
-> Os modelos trabalham em com modelos de camadas, tratam de protocolos independentes, porém são diferentes. O modelo OSI possui 7 camadas, o TCP/IP apenas 4, o TCP/IP mescla as camadas 1 e 2 do modelo OSI como camada de aplicação. A camada de Redes do OSI é chamada de Internet no TCP/IP. Os modelos foram desenvolvidos com objetivo de padronização das redes. O modelo OSI, modelo de referência da ISO, se tornou um modelo que seria base para garantir compatibilidade, interoperabilidade, portabilidade e escalabilidade. O modelo OSI não é uma arquitetura de redes, pois não especifica os serviços e protocolos exatos que devem ser usados em cada camada. Ele apenas informa o que cada camada deve fazer.
+#### 8. Acesse o site [http://www.brasilbandalarga.com.br/bbl](http://www.brasilbandalarga.com.br/bbl) e faça, de sua residência ou de um local cuja velocidade contratada de serviço de internet você conheça, o teste de velocidade da internet em dois momentos diferentes, de preferência em horários bem distintos, como manhã e noite. Você deve capturar a tela com o resultado dos testes. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
 
-#### 9. Pesquise o que é “Internet das Coisas” e explique o que é esse novo conceito.
+captura 1:
 
-> Objetos que possuem sensores, softwares e outras tecnologias, o objetivo é conectar e trocar dados com outros dispositivos, tornando os objetos interconectados. Os dispositivos podem ser domésticos, ferramentas industriais, dentre outros. A tendência é o aumento drástico desses objetos, fazendo com que no futuro tenhamos casas totalmente inteligentes, roupas e outros utilitários. A Conectividade, sensores, processamento em nuvem, machine learning e a Inteligência artificial, tornam possível o IoT
+![image](./images/conection_1.png)
 
-## Questões práticas
-#### 10. Monitorar com o Wireshark o tráfego da sua rede e capturar uma consulta ARP (request e reply) que mostre o endereço MAC e o endereço IP. Você deve capturar a tela do Wireshark e colocar setas para apontar as linhas onde o request e o reply acontecem. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
+captura 2:
 
-![image](./images/p_q10.png)
+![image](./images/conection_2.png)
 
-#### 11. Mostre a tela de configuração de "Filtro de endereço MAC" de um ponto de acesso Wi-Fi, onde é possível configurar os endereços MAC de clientes autorizados a acessar a rede Wi-Fi. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
+#### 9. Com base no resultado do teste anterior, informe qual a velocidade do link de internet onde o teste foi feito e explique se o provedor está cumprindo com a velocidade mínima contratada.
 
-#### 12. Altere o endereço MAC de uma placa de rede. Você deve capturar a tela com o endereço MAC original (usando o comando ipconfig /all) e depois com o endereço alterado. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
+A velocidade aproximada da internet que foi capturada chegou a 100 Mbps, porém a velocidade contratada é de 120 Mpbs, isso se dá pelo cabo Ethernet usado ser Cat5, ou inferior, e não suportar velocidades superiores.
 
-Anterior:
+#### 10. Um administrador de rede executou um PING em um servidor interno e o resultado demonstrou que tudo estava correto. Logo depois, executou um PING em outro servidor interno, que estava no mesmo switch do primeiro servidor, e o resultado demonstrou que estava ocorrendo perda de pacotes. Liste pelo menos 3 problemas que poderiam causar esse tipo de perda de pacotes.
 
-![image](./images/print_q12_1.png)
+Erros no Hardware: Dispositivos ou peças do dispositivo também podem quebrar ou ter erros. Podemos ter sobrecargas no hardware, falhas de alimentação energética, dentre outras.
 
-Modificado:
+Sobrecarga no servidor: No segundo servidor, podemos estar tendo uma sobrecarga no tráfego da rede, levantando erros de transmissão e consequentemente ocasionando a perda de pacotes.
 
-![image](./images/print_q12_1%201.png)
+Erros de software: Diferenças de versão dos softwares e falta de algum pacote que seja de um servidor para o outro pode estar ocasionando perda de pacotes e diferenças entre os dois servidores internos.
 
-#### 13. Faça uma tabela comparativa com os custos para registrar e hospedar um site com domínio “.com.br”. Faça a cotação em pelo menos 3 empresas e indique o nome da empresa, valor, principais recursos oferecidos (por exemplo: armazenamento ilimitado, e-mail gratuito, etc.).
+Desempenho dos dispositivos: Os dois dispositivos são hardwares diferentes, ocasionando maior falta de desempenho de um em relação ao outro, ocasionando perda de pacotes de um lado.
 
-> #### GoDaddy:
-> R$:19,99 no primeiro ano, necessária a compra de dois anos e o segundo por R$:64,99. Um dos principais recursos oferecidos pela GoDaddy é o investimento em segurança que a empresa tem. A GoDaddy se intitula o maior registrador do mundo, conhecida também por possuir um suporte premiado.
+#### 11. Muitas empresas possuem redes wireless (wifi) dentro do ambiente corporativo. Faça uma pesquisa e liste pelo menos 3 critérios importantes para gerenciar redes wireless.
 
-> #### Registro.br:
-> Ao registrar um domínio .br você está, independente da empresa, fazendo pelo [Registro.br](http://registro.br), no caso de utilizar outra empresa, está apenas sendo utilizada a empresa como intermediária do processo, então ao fazer diretamente pelo Registro.br você não deixa suas informações com demais sites e acaba tendo esse ponto a mais na segurança.
+Deve ser feita uma configuração bem planejada e de forma correta da rede sem fio, com objetivo de cobrir todos os locais que devem ser servidos pela rede wi-fi, garantindo a qualidade de sinal, testando com um Site Survey para garantir a qualidade do sinal em cada ponto, portanto, disponibilidade é um critério importante. Deve ser controlado todos os acessos e monitoramento dos serviços usados na rede para garantir a segurança da rede, manter os dados sensíveis seguros e protegidos de possíveis acessos não autorizados, garantir a integridade dos dados, a segurança da rede é uma questão importante nos critérios de uma rede wireless. Podemos ter caso de uso de rede com servidores locais, onde é necessário ter backups e mais de um servidor para garantir disponibilidade, problemas como falha energética, dentre outros, podem afetar um servidor, portanto o outro mantém a rede estável e os dados seguros, em casos de utilização de nuvens de empresas terceirizadas (Amazon AWS, Google Cloud, Microsoft Azure e etc.), se faz necessária a contratação de funcionários que sejam especializados nesses serviços, para que seja configurada da forma mais otimizada para a empresa, de forma menos custosa e mais eficiente.
 
-> #### HostGator:
-> A HostGator possui um suporte disponível 24h todos os dias, segundo eles um painel de controle interativo e fácil de usar, Proteção Whois (ID Protect) – que permite manter ocultos dados sensíveis como nome, endereço e telefone, para domínios internacionais (.com, .org e .net).
+Qualidade da rede, disponibilidade e segurança são critérios importantes no gerenciamento das redes wireless.
 
-> #### Locaweb:
-> O serviço de registro de domínios é oferecido por um preço único para todas as extensões disponibilizadas. No primeiro ano, qualquer domínio pode ser registrado por R$ 36,90, com renovação por R$ 82,90, valor acima da média de mercado. A empresa não oferece o recurso de privacidade de domínio.
+#### 12. Execute o comando “_ping -n 1000_ [www.infnet.edu.br](http://www.infnet.edu.br/)”. Ao fim do programa, será exibido um resumo dos testes efetuados. Interprete os resultados de perda de pacotes e de atraso médio. Você deve capturar a tela com o resultado dos testes. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
 
+O site [www.infnet.edu.br](http://www.infnet.edu.br) não devolve qualquer resposta, provavelmente está com acesso bloqueado. Portanto foi feito o comando usando o site do [google.com](http://google.com)
 
- Empresa | Detalhe    | Privacidade de domínio    | Preço/Ano     
------------- | ------------- | ------------- | ------------- 
-Registro.br | Preço mantido na renovação | Não se aplica | R$ 40,00 
-Godaddy | Maior variedade de extensões | Paga à parte | R$ 19,99 
-HostGator | Menor preço na compra de 2 anos | Paga à parte | R$ 39,99 
-Locaweb | Renovação entre as mais caras | Paga à parte | R$ 36,90 
+![image](./images/ping1.png)
 
+- Ping statistics for 2800:3f0:4004:802::2004:
+- Packets: Sent = 1000, Received = 1000, Lost = 0 (0% loss),
+- Approximate round trip times in milli-seconds:
+- Minimum = 27ms, Maximum = 74ms, Average = 32ms
 
-#### 14. Faça uma tabela comparativa com os custos para registrar e hospedar um site com domínio “.com” em empresas estrangeiras. Faça a cotação em pelo menos 3 empresas e indique o nome da empresa, valor, principais recursos oferecidos (por exemplo: armazenamento ilimitado, e-mail gratuito, etc.). Compare com os preços nacionais do exercício anterior e argumente o motivo pelo qual existe diferenças de preços.
+Pode-se observar que a perda de pacotes foi 0 e o atraso médio do ping foi de 32ms.
 
-Empresa/Opções | A2 Hosting    | ACCU    | DreamHost     | Liquid Web     | Ionos     |
------------- | ------------- | ------------- | ------------- | ------------- | -------------
-Shared Hosting | Sim | Sim | Sim | Sim | Não |
-VPS Hosting | Sim | Sim | Sim | Sim | Não |
-Dedicated Hosting | Sim | Sim | Sim | Sim | Sim |
-WordPress Hosting | Sim | Sim | Sim | Sim | Sim |
-Cloud Hosting | Sim | Sim | Sim | Sim | Sim |
-Linux Servers | Sim | Sim | Sim | Sim | Sim |
-Windows Servers | Sim | Sim | Não | Sim | Sim |
-24/7 Customer Support | Sim | Sim | Sim | Sim | Sim |
-Price/month | US$9.31 | US$3.36 | US$3.59 | US$19 | US$10 |
+#### 13. Faça a instalação de uma máquina virtual conforme descrito na “_Etapa 6 - Prática - Como simular redes com velocidades menores e perda de pacotes_”. Carregue um servidor HTTP localmente no seu computador e disponibilize um arquivo entre 50Mbytes a 100Mbytes, ou escolha um arquivo de tamanho semelhante na internet para ser o arquivo de referência. Refaça o **Teste 1** você mesmo e apresente o resultado do teste. Você deve capturar a tela com o resultado dos testes. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
 
-#### 15. Veja a seguir a captura de dois pacotes ARP feita com o software Wireshark. Explique o que estava acontecendo no momento em que os pacotes foram capturados. Indique qual era o endereço MAC relativo ao endereço IP 192.168.0.114.
+Iniciando o teste, verificando as configurações da máquina virtual:
 
-![image](./images/img_q_final.png)
+![image](./images/t1_vm1.png)
+
+![image](./images/teste1.png)
+
+#### 14. Seguindo a linha do exercício 13, refaça o _Teste 2_ você mesmo e apresente o resultado do teste. Você deve capturar a tela com o resultado dos testes. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
+
+![image](./images/t2_vm.png)
+
+#### 15. Seguindo a linha do exercício 13, refaça o _Teste 3_ você mesmo e apresente o resultado do teste. Você deve capturar a tela com o resultado dos testes. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
+
+#### 16. Seguindo a linha do exercício 13, refaça o _Teste 4_ você mesmo e apresente o resultado do teste. Você deve capturar a tela com o resultado dos testes. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
+
+#### 17. Foi estudado a aplicação de QoS para tráfego multimídia, como VOIP. Dê pelo menos 2 exemplos de outro tipo de tráfego que poderiam se beneficiar do QoS.
+
+O QoS é interessante para quem quer prioridade de conexão na reprodução de vídeos, serviços de streaming, jogos online e etc. Empresas usam o QoS para seus serviços de VoIP para suporte ao usuário e sistema de vendas, porém, serviços os serviços de já mencionados anteriormente, comunicação em live, streaming, dentre outros podem ser serviços que podem se beneficiar do QoS.
+
+#### 18. Explique com suas palavras porque não é possível priorizar um tráfego (QoS) fora dos limites da rede da empresa.
+
+O protocolo IP trata todos os pacotes de forma igual, não garante todos os serviços nos roteadores, tudo isso pelo conceito do melhor esforço. O QoS é habilitado no roteador, portanto o serviço fora dos limites da empresa não tem como fazer esse QoS pelo fato de ser configurado no roteador.
+
+#### 19. Veja novamente o item “Etapa 6 - Prática - Como esconder seu endereço real na internet”. Faça o teste de esconder o seu endereço IP(pode ser no computador ou no celular). Você deve capturar a tela com o resultado dos testes _antes e depois de mudar de endereço IP_. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
+
+Antes da utilização de uma VPN:
+![image](./images/ip1.png)
+
+Ao utilizar a VPN do Kaspersky:
+![image](./images/ip2.png)
+
+#### 20. Explique com suas palavras porque o Acordo de Nível de Serviço (SLA) é importante quando se contrata um link de internet, por exemplo.
+
+Está relacionado com a garantia de prestação de serviços e aos níveis de qualidade que devem ser atendidos. É uma garantia para o usuário, empresa e o profissional que presta o serviço de TI, caso haja descumprimento do acordo o contratante ou empresa estarão resguardados, na questão financeira, porém não se faz desnecessário a busca de empresas que prestem serviços de qualidade.

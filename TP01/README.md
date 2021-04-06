@@ -1,5 +1,5 @@
 
-<p align="center"><img src="./images/infnet_logo.jpg" /></p>
+<p align="center"><img src="./TP01/images/infnet_logo.jpg" /></p>
 
 ---
 
@@ -89,7 +89,7 @@ ambientes com grande número de dispositivos cliente.
 ## Questões práticas
 #### 10. Monitorar com o Wireshark o tráfego da sua rede e capturar uma consulta ARP (request e reply) que mostre o endereço MAC e o endereço IP. Você deve capturar a tela do Wireshark e colocar setas para apontar as linhas onde o request e o reply acontecem. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
 
-![image](./images/p_q10.png)
+![image](./TP01/images/p_q10.png)
 
 #### 11. Mostre a tela de configuração de "Filtro de endereço MAC" de um ponto de acesso Wi-Fi, onde é possível configurar os endereços MAC de clientes autorizados a acessar a rede Wi-Fi. Observação: a captura da tela deve capturar a tela toda, inclusive com o horário e data na barra inferior para garantir a autenticidade da captura.
 
@@ -97,11 +97,11 @@ ambientes com grande número de dispositivos cliente.
 
 Anterior:
 
-![image](./images/print_q12_1.png)
+![image](./TP01/images/print_q12_1.png)
 
 Modificado:
 
-![image](./images/print_q12_1%201.png)
+![image](./TP01/images/print_q12_1%201.png)
 
 #### 13. Faça uma tabela comparativa com os custos para registrar e hospedar um site com domínio “.com.br”. Faça a cotação em pelo menos 3 empresas e indique o nome da empresa, valor, principais recursos oferecidos (por exemplo: armazenamento ilimitado, e-mail gratuito, etc.).
 
@@ -142,4 +142,4 @@ Price/month | US$9.31 | US$3.36 | US$3.59 | US$19 | US$10 |
 
 #### 15. Veja a seguir a captura de dois pacotes ARP feita com o software Wireshark. Explique o que estava acontecendo no momento em que os pacotes foram capturados. Indique qual era o endereço MAC relativo ao endereço IP 192.168.0.114.
 
-![image](./images/img_q_final.png)
+![image](./TP01/images/img_q_final.png)
